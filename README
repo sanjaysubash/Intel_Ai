@@ -3,30 +3,15 @@ Objective:
 The task is to implement the K-Means Clustering Algorithm to partition a set of data points into a specified number of clusters (K). The algorithm aims to group similar data points together based on distance metrics (usually Euclidean distance). The objective is to determine the optimal centroids for each cluster and assign data points to the nearest cluster.
 
 Problem Description:
-Given a data matrix 
-𝑋
-X (of size 
-𝑛
-×
-𝑚
-n×m, where 
-𝑛
-n represents the number of data points and 
-𝑚
-m represents the number of features), the goal is to:
-
+Given a data matrix 𝑋 X (of size 𝑛 × 𝑚 n×m, where 𝑛 n represents the number of data points and  𝑚 m represents the number of features), the goal is to:
 Specify the number of clusters (K) for grouping the data.
 Use K-Means clustering to divide the dataset into K clusters, such that the data points within each cluster are as similar as possible.
 Visualize the results by plotting the data points and their respective cluster centers.
-Algorithm Steps:
-Step 1: Input Data
 
-𝑋
-X: A dataset with 
-𝑛
-n data points and 
-𝑚
-m features (dimensions).
+Algorithm Steps:
+Step 1: Input Data 𝑋
+X: A dataset with 𝑛
+n data points and 𝑚 m features (dimensions).
 Step 2: Choose the Number of Clusters (K)
 
 Select the number of clusters, K, either based on domain knowledge or using methods like the elbow method for determining the optimal K.
